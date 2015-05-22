@@ -1,0 +1,40 @@
+﻿Build started 5/22/2015 4:02:35 AM.
+     1>Project "C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\2D_GameEngine\2D_GameEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\include" /I"C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\Externallibs\ois-v1-3\includes" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\2D_GameEngine.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt RenderableResource.cpp
+         RenderableResource.cpp
+     1>RenderableResource.cpp(26): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\x64\Debug\2D_GameEngine.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64" /LIBPATH:"C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\ois-v1-3\lib64" SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib OIS_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\x64\Debug\2D_GameEngine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\x64\Debug\2D_GameEngine.lib" /MACHINE:X64 x64\Debug\2D_GameEngine.obj
+         x64\Debug\Input.obj
+         x64\Debug\InputManager.obj
+         x64\Debug\Layer.obj
+         x64\Debug\MovableResource.obj
+         x64\Debug\QuitGame.obj
+         x64\Debug\RenderableResource.obj
+         x64\Debug\Resource.obj
+         x64\Debug\ResourceManager.obj
+         x64\Debug\ResourceSorting.obj
+         x64\Debug\Scene.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Vector2D.obj
+         x64\Debug\Window.obj
+         2D_GameEngine.vcxproj -> C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\x64\Debug\2D_GameEngine.exe
+       PostBuildEvent:
+         xcopy /Y "C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64\*.dll" "C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\x64\Debug\"
+         :VCEnd
+         C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64\libfreetype-6.dll
+         C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64\libjpeg-9.dll
+         C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64\libpng16-16.dll
+         C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64\libtiff-5.dll
+         C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64\libwebp-4.dll
+         C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64\SDL2.dll
+         C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64\SDL2_image.dll
+         C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64\SDL2_ttf.dll
+         C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\..\ExternalLibs\SDL2-2.0.1\lib\x64\zlib1.dll
+         9 File(s) copied
+     1>Done Building Project "C:\Users\mike\Downloads\MichaelLojkovic_2D_GameEngine\MichaelLojkovic_2D_GameEngine\2D_GameEngine\2D_GameEngine\2D_GameEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.68

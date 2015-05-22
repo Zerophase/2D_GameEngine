@@ -1,0 +1,59 @@
+﻿Build started 3/8/2014 1:04:17 AM.
+     1>Project "C:\Users\Zerophase\Desktop\GameEngineProgramming\ExternalLibs\ois-v1-3\Win32\OIS_vc9.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\includes /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D _STLP_DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"..\lib64\obj\Debug\\" /Fd"..\lib64\obj\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\src\OISEffect.cpp ..\src\OISException.cpp ..\src\OISForceFeedback.cpp ..\src\OISInputManager.cpp ..\src\OISJoyStick.cpp ..\src\OISKeyboard.cpp ..\src\OISObject.cpp ..\src\win32\Win32ForceFeedback.cpp ..\src\win32\Win32InputManager.cpp ..\src\win32\Win32JoyStick.cpp ..\src\win32\Win32KeyBoard.cpp ..\src\win32\Win32Mouse.cpp ..\src\win32\extras\WiiMote\hiddevice.cpp ..\src\win32\extras\WiiMote\OISWiiMote.cpp ..\src\win32\extras\WiiMote\OISWiiMoteFactoryCreator.cpp ..\src\win32\extras\WiiMote\OISWiiMoteForceFeedback.cpp ..\src\win32\extras\WiiMote\OISWiiMoteRingBuffer.cpp ..\src\win32\extras\WiiMote\wiimote.cpp ..\src\extras\LIRC\OISLIRC.cpp ..\src\extras\LIRC\OISLIRCFactoryCreator.cpp
+         OISLIRCFactoryCreator.cpp
+         OISLIRC.cpp
+         wiimote.cpp
+         OISWiiMoteRingBuffer.cpp
+         OISWiiMoteForceFeedback.cpp
+         OISWiiMoteFactoryCreator.cpp
+         OISWiiMote.cpp
+         hiddevice.cpp
+         Win32Mouse.cpp
+         Win32KeyBoard.cpp
+         Win32JoyStick.cpp
+         Win32InputManager.cpp
+         Win32ForceFeedback.cpp
+         OISObject.cpp
+         OISKeyboard.cpp
+         OISJoyStick.cpp
+         OISInputManager.cpp
+         OISForceFeedback.cpp
+         OISException.cpp
+         OISEffect.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"..\lib64\obj\Debug\OIS.res" OIS.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1354,5): warning MSB8012: TargetPath(C:\Users\Zerophase\Desktop\GameEngineProgramming\ExternalLibs\ois-v1-3\Win32\..\lib64\OIS.lib) does not match the Library's OutputFile property value (C:\Users\Zerophase\Desktop\GameEngineProgramming\ExternalLibs\ois-v1-3\lib64\OIS_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1356,5): warning MSB8012: TargetName(OIS) does not match the Library's OutputFile property value (OIS_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\lib64\OIS_d.lib" dxguid.lib dinput8.lib xinput.lib /NOLOGO /MACHINE:X64 ..\lib64\obj\Debug\OIS.res
+         ..\lib64\obj\Debug\OISEffect.obj
+         ..\lib64\obj\Debug\OISException.obj
+         ..\lib64\obj\Debug\OISForceFeedback.obj
+         ..\lib64\obj\Debug\OISInputManager.obj
+         ..\lib64\obj\Debug\OISJoyStick.obj
+         ..\lib64\obj\Debug\OISKeyboard.obj
+         ..\lib64\obj\Debug\OISObject.obj
+         ..\lib64\obj\Debug\Win32ForceFeedback.obj
+         ..\lib64\obj\Debug\Win32InputManager.obj
+         ..\lib64\obj\Debug\Win32JoyStick.obj
+         ..\lib64\obj\Debug\Win32KeyBoard.obj
+         ..\lib64\obj\Debug\Win32Mouse.obj
+         ..\lib64\obj\Debug\hiddevice.obj
+         ..\lib64\obj\Debug\OISWiiMote.obj
+         ..\lib64\obj\Debug\OISWiiMoteFactoryCreator.obj
+         ..\lib64\obj\Debug\OISWiiMoteForceFeedback.obj
+         ..\lib64\obj\Debug\OISWiiMoteRingBuffer.obj
+         ..\lib64\obj\Debug\wiimote.obj
+         ..\lib64\obj\Debug\OISLIRC.obj
+         ..\lib64\obj\Debug\OISLIRCFactoryCreator.obj
+     1>xinput.lib(XINPUT1_4.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in dinput8.lib(DINPUT8.dll); second definition ignored
+     1>xinput.lib(XINPUT1_4.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         OIS_vc9.vcxproj -> C:\Users\Zerophase\Desktop\GameEngineProgramming\ExternalLibs\ois-v1-3\Win32\..\lib64\OIS.lib
+     1>Done Building Project "C:\Users\Zerophase\Desktop\GameEngineProgramming\ExternalLibs\ois-v1-3\Win32\OIS_vc9.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.72
